@@ -1,0 +1,6 @@
+Total Training Time: 274.59 seconds
+Number of Epochs: 1000
+Batch Size: 1
+Noisiness: [10]
+Generator Model File: generator_model.pth
+Denoised Image File: denoised_image.jpg
