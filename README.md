@@ -1,7 +1,7 @@
 # Image Denoising Using Generative Adversarial Networks
 ### Samuel Rocco, Indiana University of Pennsylvania, U-SOAR
 
-This repository contains the code and resources for a research project conducted under the U-SOAR program at Indiana University of Pennsylvania. The project utilizes Generative Adversarial Networks (GANs) to denoise images with varying levels of noise.
+This repository contains the code and resources for a research project conducted under the U-SOAR program at Indiana University of Pennsylvania. The project utilizes Generative Adversarial Networks (GANs) to denoise images with varying levels of noise. 
 
 ## Project Overview
 
