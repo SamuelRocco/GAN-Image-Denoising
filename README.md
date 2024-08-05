@@ -1,4 +1,5 @@
-# GAN-Based Image Denoising
+# Image Denoising Using Generative Adversarial Networks
+### Samuel Rocco, Indiana University of Pennsylvania, U-SOAR
 
 This repository contains the code and resources for a research project conducted under the U-SOAR program at Indiana University of Pennsylvania. The project utilizes Generative Adversarial Networks (GANs) to denoise images with varying levels of noise.
 
@@ -8,6 +9,14 @@ Generative Adversarial Networks (GANs) have gained significant attention for the
 
 ![U-SOUR_Poster](SamuelRoccoUSOAR.png)
 
+The network model used to generate clearer images based on the previous image:
+
+![Generator_Model](generator_model.png)
+
+## Generative Adversarial Network architecture diagram:
+
+![GAN_Diagram](gans_gfg.jpg)
+
 ## Repository Contents
 
 - `GAN.py`: Script for training the GAN to denoise images.
@@ -15,15 +24,7 @@ Generative Adversarial Networks (GANs) have gained significant attention for the
 - `Img_compare_PSNR.py`: Script for calculating the Peak Signal-to-Noise Ratio (PSNR) to evaluate the denoising performance.
 - `Img_compare_RMSE.py`: Script for calculating the Root Mean Squared Error (RMSE) and PSNR for denoised images.
 - `Noise_Test.py`: Script for adding noise to images.
-- `ComparisonPDF.pdf`: Contains the detailed comparison and results of the denoising process.
-
-## Installation
-
-To run the scripts, ensure you have the necessary dependencies installed. You can install them using:
-
-```bash
-pip install -r requirements.txt
-```
+- `ComparisonPDF.pdf`: Contains a detailed comparison of the results of the denoising process.
 
 ## Usage
 
@@ -69,7 +70,9 @@ python Img_compare_RMSE.py
 
 ## Results
 
-The following images illustrate the results of the denoising process at different levels of noise and epochs.
+The following images and charts illustrate the results of the denoising process at different levels of noise and epochs.
+
+![Noisy Comparison](Comparing_noisy_image_to_original.png) ![Denoise Comparison](comparing_denoised_images_with_original.png)
 
 ### Epoch 100
 
@@ -106,8 +109,4 @@ The following images illustrate the results of the denoising process at differen
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
-
-Feel free to replace the placeholders with the actual paths to your images. Let me know if there are any other details or adjustments you'd like to include!
+This project is licensed under the MIT License - see the [LICENSE](LICENSE.txt) file for details.
